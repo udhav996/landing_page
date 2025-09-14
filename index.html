@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadhav Tuition Classes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<!-- AOS Animation -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+</head>
+<body>
+
+    <!-- Cartoon Mascot -->
+<div class="cartoon-container">
+  <img src="mascot-unscreen.gif" alt="Mascot" />
+</div>
+
+  <section class="hero-section">
+  <div class="hero-container">
+    <!-- Left: Image -->
+    <div class="hero-image"></div>
+
+    <!-- Right: Text -->
+    <div class="hero-content text-white text-center">
+      <h1 class="hero-title neon-glow">Jadhav Tuition Classes</h1>
+      <p class="typed-text lead"></p>
+<button class="neon-glass-btn mt-4" onclick="scrollToContact()">Join Now</button>
+    </div>
+  </div>
+</section>
+<section class="why-choose-us-section text-white" id="about">
+  <div class="container py-5">
+    <h2 class="text-center mb-4" data-aos="fade-up">Why Choose Us?</h2>
+    <div id="whyCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="3500">
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active">
+          <h4 class="fw-bold">✅ Concept Clarity</h4>
+          <p class="mx-auto w-75">We simplify complex topics using real-life examples to ensure deep understanding.</p>
+        </div>
+
+        <div class="carousel-item">
+          <h4 class="fw-bold">🎯 Individual Attention</h4>
+          <p class="mx-auto w-75">Small batch sizes let us focus on every student's strengths and weaknesses.</p>
+        </div>
+
+        <div class="carousel-item">
+          <h4 class="fw-bold">📈 Proven Results</h4>
+          <p class="mx-auto w-75">Over <strong>10+ years</strong> of experience with 1000+ students successfully guided.</p>
+        </div>
+
+        <div class="carousel-item">
+          <h4 class="fw-bold">🚀 Interactive Teaching</h4>
+          <p class="mx-auto w-75">Learning through fun quizzes, games, and interactive sessions keeps students engaged.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Counter Section -->
+<section class="position-relative text-white py-5" style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); overflow: hidden;">
+  <!-- Wave Background -->
+  <svg class="position-absolute top-0 start-0 w-100" viewBox="0 0 1440 320" style="z-index: 0;">
+    <path fill="#ffffff10" fill-opacity="1" d="M0,64L80,85.3C160,107,320,149,480,181.3C640,213,800,235,960,240C1120,245,1280,235,1360,229.3L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+  </svg>
+
+  <div class="container position-relative" style="z-index: 1;" data-aos="zoom-in">
+    <div class="row text-center">
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="counter pulse" data-count="500">0</h2>
+        <p class="text-uppercase">Students Taught</p>
+      </div>
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="counter pulse" data-count="95">0</h2>
+        <p class="text-uppercase">Average Score %</p>
+      </div>
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="counter pulse" data-count="10">0+</h2>
+        <p class="text-uppercase">Years Experience</p>
+      </div>
+      <div class="col-md-3">
+        <h2 class="counter pulse" data-count="3">0</h2>
+        <p class="text-uppercase">Subjects Offered</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Subjects Section -->
+<section class="subjects-section position-relative py-5" id="subjects">
+  <!-- Wave Background -->
+  <svg class="position-absolute top-0 start-0 w-100" style="z-index: 0;" viewBox="0 0 1440 320">
+    <path fill="#f3f4f5" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,138.7C384,160,480,160,576,160C672,160,768,160,864,144C960,128,1056,96,1152,101.3C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+  </svg>
+
+  <div class="container position-relative" style="z-index: 1;" data-aos="fade-up">
+    <h2 class="text-center mb-5 fw-bold display-5 text-dark">Subjects We Offer</h2>
+    <div class="row g-4 text-center">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="glass-card h-100" data-aos="zoom-in">
+          <div class="icon-circle text-primary">
+            <i class="fas fa-square-root-alt fa-3x"></i>
+          </div>
+          <h5 class="mt-3 fw-semibold">Mathematics</h5>
+          <p class="text-muted">Conceptual clarity, problem-solving techniques, and exam preparation.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="glass-card h-100" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-circle text-success">
+            <i class="fas fa-book-reader fa-3x"></i>
+          </div>
+          <h5 class="mt-3 fw-semibold">English</h5>
+          <p class="text-muted">Grammar, comprehension, creative writing, and vocabulary enhancement.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="glass-card h-100" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-circle text-danger">
+            <i class="fas fa-atom fa-3x"></i>
+          </div>
+          <h5 class="mt-3 fw-semibold">Science</h5>
+          <p class="text-muted">Concepts made simple with diagrams, experiments, and real-life examples.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials Section -->
+<div class="container my-5">
+  <h3 class="text-center mb-4">💬 What Our Students Say</h3>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active text-center">
+        <img src="stud3.jpg" class="rounded-circle mb-3" width="100">
+        <h5>Riya Deshmukh</h5>
+        <p class="text-muted">Class 9th - CBSE</p>
+        <p>"Jadhav Tuition Classes helped me improve my Math grades drastically! The teachers are very supportive."</p>
+      </div>
+
+      <div class="carousel-item text-center">
+        <img src="stud2.jpg" class="rounded-circle mb-3" width="100">
+        <h5>Aditya Pawar</h5>
+        <p class="text-muted">Class 10th - SSC</p>
+        <p>"Science became fun and easy here! The explanations are very clear, and I feel confident now."</p>
+      </div>
+
+      <div class="carousel-item text-center">
+        <img src="stud4.jpg" class="rounded-circle mb-3" width="100">
+        <h5>Shruti Patil</h5>
+        <p class="text-muted">Class 8th - CBSE</p>
+        <p>"English grammar and writing improved a lot. Thank you for giving personal attention to each student!"</p>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 position-relative" style="overflow: hidden;">
+  <div class="animated-bg"></div>
+
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-5 text-light">Get in Touch</h2>
+
+    <!-- ✅ FIXED Formspree Action URL and Removed Duplicated Part -->
+    <form class="contact-form mx-auto" action="https://formspree.io/f/mldjlvdk" method="POST" style="max-width: 600px;">
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control glass-input" name="name" id="name" placeholder="Your Name" required />
+        <label for="name">Student Name</label>
+      </div>
+
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control glass-input" name="class" id="class" placeholder="e.g. 8th, 10th" required />
+        <label for="class">Class / Grade</label>
+      </div>
+
+      <div class="form-floating mb-4">
+        <textarea class="form-control glass-input" name="message" id="message" placeholder="Ask us anything..." style="height: 120px;" required></textarea>
+        <label for="message">Message / Query</label>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn neon-btn py-2 px-4">🚀 Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+  <!-- Location Section -->
+<div class="container my-2"> <!-- Changed from my-4 to my-2 -->
+  <h3 class="text-center mb-3">📍 Find Us Here</h3> <!-- Reduced margin -->
+  <div class="map-responsive">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.6594017408654!2d76.56750341538662!3d18.402480076896076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4bb9f0a14fa25%3A0x8b4055352e47401b!2sDurga%20Devi%20Chowk%2C%20Latur%2C%20Maharashtra%20413231!5e0!3m2!1sen!2sin!4v1695974867639!5m2!1sen!2sin"
+      width="100%"
+      height="300" <!-- Reduced height -->
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+<footer class="text-white py-4" style="background: linear-gradient(135deg, #1a1a2e, #16213e); position: relative; overflow: hidden;" data-aos="fade-up">
+  <!-- Animated background circles -->
+  <div class="footer-bg">
+    <span class="circle"></span>
+    <span class="circle"></span>
+    <span class="circle"></span>
+  </div>
+
+  <div class="container text-center position-relative" style="z-index: 1;">
+    <h5 class="mb-2 fw-bold">🌟 Jadhav Tuition Classes</h5> <!-- Reduced margin -->
+    <p class="mb-3">Empowering students with knowledge & confidence.</p> <!-- Reduced margin -->
+
+    <div class="mb-3">
+      <a href="#" class="text-white me-3 fs-5 footer-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white me-3 fs-5 footer-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white me-3 fs-5 footer-icon"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" class="text-white fs-5 footer-icon"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <p class="mb-0 small">&copy; 2025 Jadhav Tuition Classes. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+ <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/9370786679?text=Hi%20I%20want%20to%20enroll%20in%20your%20tuition%20class"
+   class="whatsapp-float" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat on WhatsApp">
+</a>
+
+
+
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+  const counters = document.querySelectorAll('.counter');
+  counters.forEach(counter => {
+    const animate = () => {
+      const target = +counter.getAttribute('data-count');
+      const count = +counter.innerText;
+      const inc = target / 100;
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + inc);
+        setTimeout(animate, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    animate();
+  });
+</script>
+
+<!-- Typed.js for typing animation -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Typed('.typed-text', {
+      strings: [
+        "Building Strong Foundations for a Brighter Future...",
+        "Math, Science, and English Made Easy!",
+        "Personal Attention. Proven Results."
+      ],
+      typeSpeed: 40,
+      backSpeed: 25,
+      backDelay: 2000,
+      loop: true,
+      showCursor: false  //  disables the blinking cursor
+    });
+  });
+</script>
+
+<script>
+  function scrollToContact(el) {
+    const section = document.getElementById("contact");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+
+      // 👇 Force reset styles after tap
+      setTimeout(() => {
+        el.blur();            // removes focus
+        el.classList.remove("focus");
+      }, 300);
+    }
+  }
+</script>
+
+
+<script>
+  // Counter animation
+  document.addEventListener("DOMContentLoaded", function () {
+    const counters = document.querySelectorAll('.counter');
+    const speed = 50;
+
+    counters.forEach(counter => {
+      const animate = () => {
+        const value = +counter.getAttribute('data-count');
+        const data = +counter.innerText;
+        const time = value / speed;
+        if (data < value) {
+          counter.innerText = Math.ceil(data + time);
+          setTimeout(animate, 20);
+        } else {
+          counter.innerText = value + (counter.textContent.includes('+') ? '+' : '');
+        }
+      };
+      animate();
+    });
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  const carousel = document.querySelector('#whyCarousel');
+  const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel);
+
+  let isTouching = false;
+
+  // Pause on hover (desktop)
+  carousel.addEventListener('mouseenter', () => {
+    bsCarousel.pause();
+  });
+  carousel.addEventListener('mouseleave', () => {
+    if (!isTouching) bsCarousel.cycle();
+  });
+
+  // Pause on tap (mobile)
+  carousel.addEventListener('touchstart', () => {
+    isTouching = true;
+    bsCarousel.pause();
+  });
+
+  carousel.addEventListener('touchend', () => {
+    setTimeout(() => {
+      isTouching = false;
+      bsCarousel.cycle();
+    }, 1500);
+  });
+</script>
+
+
+
+</body>
+</html>
